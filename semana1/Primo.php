@@ -1,5 +1,6 @@
 <?php
-	function primo (int $num): bool {
+	// devolve se o numero eh primo ou nao
+	function primo ($num) {
 		// caso o número seja menor que 1
 		if ($num <= 1) {
 			echo "$num não é primo\n";
